@@ -1,14 +1,11 @@
  # Gitflow Branch Strategy
- ## We use DEV branch ->  DEV/feature-name
+ ### We use DEV branch ->  DEV/feature-name
 <p align="center">
-<img src="https://uploads.sitepoint.com/wp-content/uploads/2019/06/155993572204-gitflow.png">
+<img width="60%" height="60%" src="https://uploads.sitepoint.com/wp-content/uploads/2019/06/155993572204-gitflow.png">
+<img width="40%" height="40%" src="https://img.devrant.com/devrant/rant/r_1047143_Kv2aS.jpg">
 </p>
 
 ***
-
-<p align="center">
-<img src="https://img.devrant.com/devrant/rant/r_1047143_Kv2aS.jpg">
-</p>
 
 ##  Salesforce DX Project: Next Steps
 
