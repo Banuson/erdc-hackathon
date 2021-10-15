@@ -39,7 +39,7 @@ jobs:
         echo y | sfdx plugins:install sfdx-git-delta
         git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
         git fetch --all
-        git --no-pager diff --name-status origin/master
+        git --no-pager diff --name-status dev origin/master
         sfdx sgd:source:delta --to dev --from origin/master  --repo . --output .
         cat package/package.xml
         cat destructiveChanges/destructiveChanges.xml
@@ -49,5 +49,5 @@ jobs:
         sfdx force:source:convert --manifest=destructiveChanges/destructiveChanges.xml --outputdir=convert_destructive
     - name: 'Run Test on Metadata'
       run: |
-        sfdx force:mdapi:deploy --deploydir=convert --testlevel=RunLocalTests -u prod-org
-        sfdx force:mdapi:deploy --deploydir=convert_destructive --testlevel=RunLocalTests -u prod-org
+        sfdx force:mdapi:deploy --deploydir=convert  -u prod-org
+        sfdx force:mdapi:deploy --deploydir=convert_destructive  -u prod-org
