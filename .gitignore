@@ -9,6 +9,9 @@
 .localdevserver/
 deploy-options.json
 
+#plugins
+.husky/
+
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
 
