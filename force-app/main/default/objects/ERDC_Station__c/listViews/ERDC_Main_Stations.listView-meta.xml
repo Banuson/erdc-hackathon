@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERDC_Main_Stations</fullName>
+    <columns>NAME</columns>
+    <columns>ERDC_Trip_Count__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>ERDC_Station__c.ERDC_Main_Station</value>
+    </filters>
+    <label>1.Main Stations</label>
+</ListView>
