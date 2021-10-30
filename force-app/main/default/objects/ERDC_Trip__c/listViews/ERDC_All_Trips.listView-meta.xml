@@ -7,6 +7,6 @@
     <columns>ERDC_Line__c</columns>
     <columns>CREATED_DATE</columns>
     <columns>UPDATEDBY_USER</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <label>All Trips</label>
 </ListView>
