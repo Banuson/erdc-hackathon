@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>ERDC_GlobalUtilityConstants</members>
+		<members>ERDC_MapController</members>
+		<members>Event_TicketValidationMachineManagement</members>
+		<members>LogsUtility</members>
+		<members>TriggerHandler</members>
+		<members>TriggerInterface</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Hackathon</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
 		<members>ERDC_Bus__c</members>
 		<members>ERDC_Card__c</members>
 		<members>ERDC_Line__c</members>
 		<members>ERDC_Station__c</members>
 		<members>ERDC_Trip__c</members>
-		<members>Log__c</members>
-		<members>Transport_Map</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>ERDC_Bus__c</members>
+		<members>ERDC_Card__c</members>
+		<members>ERDC_Line__c</members>
+		<members>ERDC_Station__c</members>
+		<members>ERDC_Trip__c</members>
 		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>ERDC_Station_Record_Page</members>
+		<members>Hackathon_UtilityBar</members>
+		<members>Transport_Map</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>ERDC_Bus__c-ERDC_Bus Layout</members>
+		<members>ERDC_Card__c-ERDC_Card Layout</members>
+		<members>ERDC_Junction__c-ERDC_Junction Layout</members>
+		<members>ERDC_Line__c-ERDC_Line Layout</members>
+		<members>ERDC_Station__c-Main Station Page Layout</members>
+		<members>ERDC_Station__c-Substation Page Layout</members>
+		<members>ERDC_Trip__c-Trip Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>greenPin</members>
+		<members>leaflet</members>
+		<members>orangePin</members>
+		<members>redPin</members>
+		<name>StaticResource</name>
 	</types>
 	<version>51.0</version>
 </Package>
