@@ -19,6 +19,7 @@
 		<members>ERDC_Line__c</members>
 		<members>ERDC_Station__c</members>
 		<members>ERDC_Trip__c</members>
+		<members>Log__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
@@ -27,6 +28,7 @@
 		<members>ERDC_Line__c</members>
 		<members>ERDC_Station__c</members>
 		<members>ERDC_Trip__c</members>
+		<members>Log__c</members>
 		<name>CustomTab</name>
 	</types>
 	<types>
